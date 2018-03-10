@@ -7,7 +7,7 @@ function combining a set of weights with the feature vector.
 In the modern sense, the perceptron is an algorithm for learning a binary classifier: a function that maps its input x (a real-valued vector) to an output value f ( x ) {\displaystyle f(x)} f(x) (a single binary value):
 <br><br>
     f ( x ) = { 1 if    w ⋅ x + b > 0
-    <br>{0 otherwise 
+    <br>      {0 otherwise 
     <br>
 
 where w is a vector of real-valued weights, w ⋅ x is the dot product
