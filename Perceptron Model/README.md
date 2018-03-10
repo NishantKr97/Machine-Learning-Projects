@@ -8,6 +8,14 @@ In the modern sense, the perceptron is an algorithm for learning a binary classi
 <br><br>
     f ( x ) = { 1 if    w ⋅ x + b > 0
     <br>{0 otherwise 
-    <br>{\displaystyle f(x)={\begin{cases}1&{\text{if }}\ w\cdot x+b>0\\0&{\text{otherwise}}\end{cases}}} {\displaystyle f(x)={\begin{cases}1&{\text{if }}\ w\cdot x+b>0\\0&{\text{otherwise}}\end{cases}}}
+    <br>
 
-where w is a vector of real-valued weights, w ⋅ x {\displaystyle w\cdot x} w\cdot x is the dot product ∑ i = 1 m w i x i {\displaystyle \sum _{i=1}^{m}w_{i}x_{i}} {\displaystyle \sum _{i=1}^{m}w_{i}x_{i}}, where m is the number of inputs to the perceptron and b is the bias. The bias shifts the decision boundary away from the origin and does not depend on any input value.
+where w is a vector of real-valued weights, w ⋅ x is the dot product
+<br>
+∑ i = w i . x i <br> where i varies from 0 to m, where m is the number of inputs to the perceptron and b is the bias. The bias shifts the decision boundary away from the origin and does not depend on any input value.
+<br><br>
+This project implememts Perceptron model for the Basic Logic Gates like<br>
+1. OR Gate<br>
+2. AND Gate<br>
+3. NOR Gate<br>
+4. NAND Gate<br>
